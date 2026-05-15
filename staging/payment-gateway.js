@@ -14,7 +14,7 @@ const stripe = new Stripe("YOUR_STRIPE_SECRET_KEY");
 // ==========================================
 // CREATE PAYMENT INTENT
 // ==========================================
-app.post("/create-payment", async (req, res) => {
+app.post("/create-paymen", async (req, res) => {
     try {
         const { amount, currency } = req.body;
 
